@@ -1,48 +1,60 @@
+/* HEADER */
 
-
-/* HEADER STUFF */
 .header{
-  font-size: 14px;
-  font-family: Verdana;
-  font-weight: bold;
-  background-color: white;
-  border-bottom: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   position: fixed;
+  z-index: 1;
   width: 100%;
   height: 80px;
-  top: 0;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.headimg{
+.logo{
   display: flex;
   align-items: center;
-  color: MediumAquamarine;
+  flex-grow: 1;
+  padding-left: 30px;
+  color: mediumaquamarine;
 }
 
-.header li{
-  display: inline-flex;
-
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
-ul li a{
-  list-style: none;
-  color: black;
+.header nav{
+  padding: 40px;
 }
 
+/* MAIN CONTENT */
 
-/* PAGE CONTENT */
 .content{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  display: flex;
+  width: 1300px;
+  margin: 0px auto 78px auto;
+  padding-top: 116px;
 }
 
-.mainstory h1{
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large{
+  width: 630px;
+}
+
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
 }
