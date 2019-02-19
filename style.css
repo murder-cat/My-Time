@@ -1,3 +1,26 @@
+
+
+/* HEADER STUFF */
 .header{
-  font-size: 20px;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.header span{
+  padding-right: 5px;
+}
+
+.header li{
+  display: inline-flex;
+}
+
+.header a{
+  text-decoration: : none;
+}
+
+ul{
+  list-style: none;
 }
