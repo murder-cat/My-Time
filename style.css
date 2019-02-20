@@ -1,3 +1,17 @@
+
+/* UNIVERSAL STYLES */
+
+.img-content{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
 /* HEADER */
 
 .header{
@@ -47,14 +61,33 @@
   margin-right: 32px;
 }
 
+/* LARGE  */
 .column.large{
   width: 630px;
 }
 
+.lead-story .img-content{
+  background-image: url(images/story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.fall-cancelled .img-content{
+  background-image: url(images/fall.png);
+}
+
+.pop-culture .img-content{
+  background-image: url(images/camera-man.png);
+}
+
+/* MEDIUM */
 .column.medium{
   width: 300px;
 }
 
+/*SMALL*/
 .column.small{
   width: 240px;
 }
